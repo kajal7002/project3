@@ -1,0 +1,129 @@
+/* CSS reset */
+/* v2.0 | 20110126 
+   http://meyerweb.com/eric/tools/css/reset/  
+   License: none (public domain) 
+*/
+
+html, body, span, applet, object, iframe, 
+blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+del, dfn, em, img, ins, kbd, q, s, samp, div
+small, strike, strong, sub, sup, tt, var, 
+b, u, i, center, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td, 
+article, aside, canvas, details, embed,  
+figure, figcaption, hgroup,  
+menu, nav, output, ruby, summary, 
+time, mark, audio, video { 
+  margin: 0; 
+  padding: 0; 
+  border: 0; 
+  font-size: 100%;  
+  vertical-align: baseline; 
+ } 
+ 
+/* HTML5 display-role reset for older browsers */ 
+article, aside, details, figcaption, figure,  
+footer, header, hgroup, menu, nav, section { 
+  display: block; 
+ } 
+
+body { 
+  line-height: 1; 
+ } 
+
+ol, ul { 
+  list-style: none; 
+ } 
+
+blockquote, q { 
+  quotes: none; 
+ } 
+
+blockquote:before, blockquote:after, 
+
+q:before, q:after { 
+  content: ''; 
+  content: none; 
+ } 
+
+table { 
+  border-collapse: collapse; 
+  border-spacing: 0; 
+ } 
+ 
+
+html {
+	min-width: 3000px;
+}
+
+/*Navigation-----------------------------------------------------------------------------------------------*/
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#nav li {
+    float: left;
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+/*Image----------------------------------------------------------------------------------------------------------------------*/
+div.gallery {
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 30px;
+    text-align: center;
+}
+/*----------------------------------------------------------------------------------------------------------------------*/
+/*resume----------------------------------------------------------------------------------------------------------------------*/
+div.edu h2 {
+    color: green;
+}
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+#map{
+  height:350px;
+  width:450px;
+}
+
+body { 
+  margin: 10px; 
+ } 
